@@ -1,0 +1,115 @@
+.user_page {
+    background: linear-gradient(45deg, #f8f9fa, #e9ecef);
+    padding: 20px;
+    min-height: 100vh;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .title {
+    font-size: 3rem;
+    color: #5a5a5a;
+    font-weight: bold;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    color: #7b7b7b;
+  }
+
+  .main_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  .mint_section,
+  .received_section {
+    background: #1f1f1f;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .section_title {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .form input,
+  .form textarea,
+  .form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+  }
+
+  .form input,
+  .form textarea {
+    background-color: #2a2a2a;
+    color: #fff;
+    border: 1px solid #444;
+  }
+
+  .form button {
+    background-color: #00b8d4;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .form button:hover {
+    background-color: #008c99;
+  }
+
+  .gift_item {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .gift_item a {
+    color: #00b8d4;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .gift_item button {
+    background-color: #00b8d4;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .gift_item button:hover {
+    background-color: #008c99;
+  }
+
+  .logout_button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout_button:hover {
+    background-color: #e63939;
+  }
